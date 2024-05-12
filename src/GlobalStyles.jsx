@@ -13,7 +13,7 @@ export const GlobalStyles = createGlobalStyle`
   --radius-md:2rem;
   --radius-lg:3rem;
 
-  --gradient : linear-gradient(to right, rgb(196, 232, 107),rgb(0, 188, 180) );
+  --gradient : linear-gradient(45deg, #9C867B, #B39F88, #C9B99B, #E0D4B9, #F7EFE4)
 
 }
 
