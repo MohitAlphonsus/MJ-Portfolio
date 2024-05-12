@@ -3,5 +3,6 @@ import Main from './Main';
 
 import Logo from './Logo';
 import Hero from './Hero';
+import Projects from './Projects';
 
-export { Aside, Main, Logo, Hero };
+export { Aside, Main, Logo, Hero, Projects };

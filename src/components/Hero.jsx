@@ -53,8 +53,6 @@ const HeroSection = styled.section`
 		background-clip: text;
 		color: transparent;
 
-		line-height: 1.3;
-
 		@media (min-width: 37.5em) {
 			font-size: 6rem;
 			width: 13ch;
@@ -62,7 +60,7 @@ const HeroSection = styled.section`
 	}
 
 	.hero-btn {
-		margin-top: 2rem;
+		margin-top: 1rem;
 	}
 `;
 
