@@ -6,10 +6,11 @@ const PortfolioContainer = styled.div`
 	padding: 1rem;
 	display: grid;
 	grid-template-columns: 1fr;
-	gap: 1rem;
+	gap: 6rem;
 
 	@media (min-width: 64em) {
 		grid-template-columns: 0.25fr 0.75fr;
+		gap: 2rem;
 	}
 `;
 
