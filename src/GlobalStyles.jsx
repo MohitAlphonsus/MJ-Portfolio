@@ -8,6 +8,7 @@ export const GlobalStyles = createGlobalStyle`
   --dark : #020617;
   --light: #f4f4f6;
   --border-color:#303033;
+ 
 
   --radius-sm:1rem;
   --radius-md:2rem;
@@ -40,5 +41,9 @@ export const GlobalStyles = createGlobalStyle`
   
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
+  }
+
+  a {
+    text-decoration: none;
   }
 `;
