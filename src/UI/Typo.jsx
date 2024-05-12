@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { FaHand, FaStar } from 'react-icons/fa6';
 
 export const HeadingSecondary = styled.h2`
 	font-size: 2.8rem;
@@ -12,7 +13,7 @@ export const HeadingSecondary = styled.h2`
 	}
 `;
 
-export const SubHeading = styled.span`
+const SubHeadingStyle = styled.span`
 	background-color: var(--dark);
 	border: 1px solid var(--border-color);
 	padding: 1rem 2rem;
@@ -20,4 +21,16 @@ export const SubHeading = styled.span`
 	font-size: 1.4rem;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
 `;
+
+export function SubHeading({ children, greet }) {
+	return (
+		<SubHeadingStyle className="subheading-icon">
+			{greet ? <FaHand /> : <FaStar />}
+			<span>{children}</span>
+		</SubHeadingStyle>
+	);
+}

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { HeadingSecondary, SubHeading } from '../UI/Typo';
-import Button from './Button';
-
+import { Button } from '../components';
 import { projects } from '../constants/projects';
 
 export default function Projects() {

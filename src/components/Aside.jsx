@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Logo } from '../components';
+import { Logo, Button } from '../components';
 import profile from '../assets/profile.jpeg';
 
 import {
@@ -8,7 +8,6 @@ import {
 	FaInstagram,
 	FaGithub,
 } from 'react-icons/fa6';
-import Button from './Button';
 
 const socialIcons = [
 	{

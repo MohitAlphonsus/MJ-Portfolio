@@ -1,15 +1,13 @@
 import styled from 'styled-components';
 import { FaArrowDown } from 'react-icons/fa6';
 import { SubHeading } from '../UI/Typo';
-import Button from './Button';
+import { Button } from '../components';
 
 export default function Hero() {
 	const textToRotate = 'scroll for more . scroll for more .';
 	return (
 		<HeroSection>
-			<SubHeading>
-				<span className="subheading-icon">✋🏻</span> Hello there
-			</SubHeading>
+			<SubHeading greet="true">Hello there</SubHeading>
 			<h1>I'm Mohit Jadhav, A Frontend Web Developer.</h1>
 			<Button className="hero-btn" $accent>
 				My Projects
