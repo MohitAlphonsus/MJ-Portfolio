@@ -15,7 +15,7 @@ export const HeadingSecondary = styled.h2`
 export const SubHeading = styled.span`
 	background-color: var(--dark);
 	border: 1px solid var(--border-color);
-	padding: 0.5rem 1rem;
+	padding: 1rem 2rem;
 	border-radius: var(--radius-xs);
 	font-size: 1.4rem;
 	text-transform: uppercase;

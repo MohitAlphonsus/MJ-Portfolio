@@ -8,7 +8,7 @@ import {
 	FaInstagram,
 	FaGithub,
 } from 'react-icons/fa6';
-import Button from '../UI/Button';
+import Button from './Button';
 
 const socialIcons = [
 	{
@@ -43,7 +43,15 @@ export default function Aside() {
 					</a>
 				))}
 			</Social>
-			<Button className="aside-btn">Download CV</Button>
+			<Button
+				as="a"
+				className="aside-btn"
+				href="https://styled-components.com/docs/basics"
+				target="_blank"
+				$accent
+			>
+				Download CV
+			</Button>
 		</AsideWrapper>
 	);
 }

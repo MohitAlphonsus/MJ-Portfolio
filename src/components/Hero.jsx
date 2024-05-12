@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { FaArrowDown } from 'react-icons/fa6';
 import { SubHeading } from '../UI/Typo';
-import Button from '../UI/Button';
+import Button from './Button';
 
 export default function Hero() {
 	const textToRotate = 'scroll for more . scroll for more .';
@@ -11,7 +11,9 @@ export default function Hero() {
 				<span className="subheading-icon">✋🏻</span> Hello there
 			</SubHeading>
 			<h1>I'm Mohit Jadhav, A Frontend Web Developer.</h1>
-			<Button className="hero-btn">My Projects</Button>
+			<Button className="hero-btn" $accent>
+				My Projects
+			</Button>
 			<Circle>
 				<FaArrowDown className="circle-icon" />
 				<div className="circle-text">
@@ -34,7 +36,7 @@ export default function Hero() {
 }
 
 const HeroSection = styled.section`
-	/* height: 100vh; */
+	margin-top: 1rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -55,7 +57,7 @@ const HeroSection = styled.section`
 
 		@media (min-width: 37.5em) {
 			font-size: 6rem;
-			width: 13ch;
+			width: 14ch;
 		}
 	}
 

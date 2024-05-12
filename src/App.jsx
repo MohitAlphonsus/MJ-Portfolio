@@ -9,7 +9,7 @@ const PortfolioContainer = styled.div`
 
 	@media (min-width: 64em) {
 		height: 100dvh;
-		grid-template-columns: 0.25fr 0.75fr;
+		grid-template-columns: 0.25fr 1fr;
 		gap: 2rem;
 	}
 `;

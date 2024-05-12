@@ -6,7 +6,12 @@ export const GlobalStyles = createGlobalStyle`
   --font-body: "Lato", sans-serif;
 
   --dark : #020617;
-  --light: #f4f4f6;
+   --light: #f4f4f6; 
+
+
+  --accent-1:#FFE7D5;
+  --accent-2:#FF8A5E;
+
   --border-color:#303033;
  
   --radius-xs:.5rem;
@@ -14,7 +19,11 @@ export const GlobalStyles = createGlobalStyle`
   --radius-md:2rem;
   --radius-lg:3rem;
 
-  --gradient : linear-gradient(45deg, #9C867B, #B39F88, #C9B99B, #E0D4B9, #F7EFE4)
+  --gradient : linear-gradient(to right, var(--accent-1), var(--accent-2));
+
+  --gradient-1 : linear-gradient(to right bottom,#FF8A5E ,#F66F7A);
+  --gradient-2 : linear-gradient(to right bottom,#DB6195 ,#AE5FA9);
+  --gradient-3 : linear-gradient(to right bottom,#7361AF ,#1860A6);
 
 }
 

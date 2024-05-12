@@ -4,10 +4,12 @@ import project3 from '../assets/project-3.png';
 
 export const projects = [
 	{
-		id: 'p1',
+		id: 'project$1',
+		colorId: 1,
 		imgSrc: project1,
-		projectName: 'Flavorscape',
+		projectName: 'Flavorscape Resto Website',
 		desc: 'A restaurant website, where you can feast on your favourite food.',
+		link: 'https://flavorscape-restaurant.netlify.app',
 		tools: [
 			{ id: 't1', toolName: 'React' },
 			{ id: 't2', toolName: 'Styled-Components' },
@@ -16,10 +18,12 @@ export const projects = [
 		],
 	},
 	{
-		id: 'p2',
+		id: 'project$2',
+		colorId: 2,
 		imgSrc: project2,
-		projectName: 'Furninest',
+		projectName: 'Furninest Store Cart Website',
 		desc: 'Furniture store with browser storage and cart functionality',
+		link: 'https://furninest-store.netlify.app',
 		tools: [
 			{ id: 't1', toolName: 'React' },
 			{ id: 't2', toolName: 'CSS-Modules' },
@@ -29,10 +33,12 @@ export const projects = [
 		],
 	},
 	{
-		id: 'p3',
+		id: 'project$3',
+		colorId: 3,
 		imgSrc: project3,
-		projectName: 'QuizzyQ',
+		projectName: 'QuizzyQ Fun Website',
 		desc: 'Quizz app with different quizz options with timer functionality',
+		link: 'https://quizzyq.netlify.app',
 		tools: [
 			{ id: 't1', toolName: 'React' },
 			{ id: 't2', toolName: 'Styled-Components' },
