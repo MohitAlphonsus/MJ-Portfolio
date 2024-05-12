@@ -9,7 +9,7 @@ export const GlobalStyles = createGlobalStyle`
   --light: #f4f4f6;
   --border-color:#303033;
  
-
+  --radius-xs:.5rem;
   --radius-sm:1rem;
   --radius-md:2rem;
   --radius-lg:3rem;
@@ -26,6 +26,8 @@ export const GlobalStyles = createGlobalStyle`
 
   html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
   }
 
   html, body {
