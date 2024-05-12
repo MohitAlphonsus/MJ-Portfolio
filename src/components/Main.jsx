@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Hero, Projects } from '../components';
+import { Hero, Projects, About } from '../components';
 
 const MainWrapper = styled.main`
 	padding: 2rem;
@@ -13,6 +13,7 @@ export default function Main() {
 		<MainWrapper>
 			<Hero />
 			<Projects />
+			<About />
 		</MainWrapper>
 	);
 }

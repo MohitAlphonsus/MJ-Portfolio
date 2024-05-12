@@ -47,8 +47,6 @@ const ProjectSection = styled.section`
 	align-items: flex-start;
 	flex-direction: column;
 	gap: 2rem;
-
-	height: 100dvh;
 `;
 
 const ProjectsContainer = styled.div`
@@ -167,6 +165,7 @@ const ProjectCard = styled.div`
 					font-size: 1.2rem;
 					font-weight: 600;
 					letter-spacing: 1px;
+					border-radius: var(--radius-xs);
 				}
 			}
 		}

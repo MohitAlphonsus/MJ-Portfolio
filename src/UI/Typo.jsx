@@ -13,6 +13,16 @@ export const HeadingSecondary = styled.h2`
 	}
 `;
 
+export const HeadingTertiary = styled.h3`
+	font-size: 2rem;
+	font-weight: 400;
+	letter-spacing: 1px;
+
+	@media (min-width: 37.5em) {
+		font-size: 3.2rem;
+	}
+`;
+
 const SubHeadingStyle = styled.span`
 	background-color: var(--dark);
 	border: 1px solid var(--border-color);

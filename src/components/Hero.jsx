@@ -40,12 +40,7 @@ const HeroSection = styled.section`
 	justify-content: center;
 	align-items: flex-start;
 	gap: 2rem;
-
-	/* .subheading-icon {
-		display: inline-block;
-		transform-origin: center;
-		animation: waveHand 1s alternate infinite;
-	} */
+	padding-bottom: 7rem;
 
 	h1 {
 		font-size: 3.6rem;
