@@ -28,11 +28,8 @@ const FooterContainer = styled.div`
 	align-items: center;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	gap: 1rem;
 	padding-block: 2rem;
 	border-bottom: 1px solid var(--border-color);
 	font-size: 1.6rem;
-
-	/* @media (min-width: 36.25em) {
-		justify-content: space-between;
-	} */
 `;

@@ -45,6 +45,7 @@ export default function About() {
 }
 
 const AboutSection = styled.section`
+	--bg-box: rgba(2, 6, 23, 0.8);
 	padding-block: 3rem;
 	display: flex;
 	flex-direction: column;
@@ -90,8 +91,7 @@ const EducationBox = styled.div`
 	width: 100%;
 	border: 1px solid var(--border-color);
 	border-radius: var(--radius-sm);
-	/* background: var(--dark); */
-	background-color: rgba(2, 6, 23, 0.8);
+	background-color: var(--bg-box);
 	padding: 2rem;
 	display: flex;
 	flex-direction: column;
@@ -123,7 +123,7 @@ const ToolsBox = styled.div`
 	padding: 1rem;
 	border: 1px solid var(--border-color);
 	border-radius: var(--radius-xs);
-	background-color: rgba(2, 6, 23, 0.8);
+	background-color: var(--bg-box);
 
 	.skill-icon {
 		font-size: 3.6rem;
@@ -141,5 +141,5 @@ const SkillBox = styled.div`
 	padding: 0.5rem 1.5rem;
 	text-transform: uppercase;
 	font-size: 1.2rem;
-	background-color: rgba(2, 6, 23, 0.8);
+	background-color: var(--bg-box);
 `;

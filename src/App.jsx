@@ -8,11 +8,12 @@ const PortfolioContainer = styled.div`
 	gap: 6rem;
 	position: relative;
 	overflow-x: hidden;
+	max-width: 150rem;
 
 	@media (min-width: 64em) {
 		height: 100dvh;
 		grid-template-columns: 0.25fr 1fr;
-		gap: 2rem;
+		gap: 4rem;
 	}
 `;
 
