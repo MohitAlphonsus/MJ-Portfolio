@@ -24,6 +24,9 @@ const socialIcons = [
 	{ id: 4, icon: FaGithub, linkTo: 'https://github.com/MohitAlphonsus' },
 ];
 
+const RESUME_LINK =
+	'https://drive.google.com/file/d/15NfjJnKJkdVR-R_5_pzc-R5svjzkcJJo/view?usp=drive_link';
+
 export default function Aside() {
 	return (
 		<AsideWrapper>
@@ -45,7 +48,7 @@ export default function Aside() {
 			<Button
 				as="a"
 				className="aside-btn"
-				href="https://styled-components.com/docs/basics"
+				href={RESUME_LINK}
 				target="_blank"
 				$accent
 			>
@@ -56,7 +59,9 @@ export default function Aside() {
 }
 
 const AsideWrapper = styled.aside`
+	background-color: var(--dark);
 	height: 100%;
+	width: minmax(100%, 40rem);
 	display: flex;
 	flex-direction: column;
 	align-items: center;

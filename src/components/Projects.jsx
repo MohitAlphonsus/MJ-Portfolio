@@ -42,11 +42,16 @@ export default function Projects() {
 }
 
 const ProjectSection = styled.section`
-	padding-block: 7rem;
+	padding-block: 3rem;
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 	flex-direction: column;
 	gap: 2rem;
+
+	@media (min-width: 37.5em) {
+		align-items: flex-start;
+		padding-block: 6rem;
+	}
 `;
 
 const ProjectsContainer = styled.div`

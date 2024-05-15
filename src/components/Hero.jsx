@@ -37,10 +37,17 @@ const HeroSection = styled.section`
 	margin-top: 1rem;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	text-align: center;
 	justify-content: center;
-	align-items: flex-start;
 	gap: 2rem;
-	padding-bottom: 7rem;
+	padding-bottom: 3rem;
+
+	@media (min-width: 37.5em) {
+		align-items: flex-start;
+		text-align: left;
+		padding-bottom: 6rem;
+	}
 
 	h1 {
 		font-size: 3.6rem;
@@ -50,7 +57,7 @@ const HeroSection = styled.section`
 
 		@media (min-width: 37.5em) {
 			font-size: 6rem;
-			width: 14ch;
+			width: 17ch;
 		}
 	}
 

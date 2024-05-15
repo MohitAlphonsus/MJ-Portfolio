@@ -1,11 +1,11 @@
 import styled from 'styled-components';
-import { Hero, Projects, About } from '../components';
+import { Hero, Projects, About, Footer } from '../components';
 
 const MainWrapper = styled.main`
-	padding: 2rem;
 	overflow-y: scroll;
 	scroll-behavior: smooth;
 	scrollbar-width: none;
+	max-width: 110rem;
 `;
 
 export default function Main() {
@@ -14,6 +14,7 @@ export default function Main() {
 			<Hero />
 			<Projects />
 			<About />
+			<Footer />
 		</MainWrapper>
 	);
 }

@@ -46,7 +46,7 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     font-family: var(--font-body);
-    background-color: var(--dark);
+    background: var(--dark);
     color: var(--light);
   }
   

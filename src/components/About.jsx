@@ -45,19 +45,30 @@ export default function About() {
 }
 
 const AboutSection = styled.section`
-	padding-block: 7rem;
+	padding-block: 3rem;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
+	text-align: center;
 	gap: 2rem;
+
+	@media (min-width: 37.5em) {
+		align-items: flex-start;
+		text-align: left;
+		padding-block: 6rem;
+	}
 
 	p {
 		font-size: 2rem;
 		line-height: 1.6;
+
+		@media (min-width: 37.5em) {
+			width: 70%;
+		}
 	}
 
 	.about-small-heading {
-		margin-top: 2rem;
+		margin-top: 4rem;
 	}
 `;
 
@@ -79,6 +90,8 @@ const EducationBox = styled.div`
 	width: 100%;
 	border: 1px solid var(--border-color);
 	border-radius: var(--radius-sm);
+	/* background: var(--dark); */
+	background-color: rgba(2, 6, 23, 0.8);
 	padding: 2rem;
 	display: flex;
 	flex-direction: column;
@@ -110,6 +123,7 @@ const ToolsBox = styled.div`
 	padding: 1rem;
 	border: 1px solid var(--border-color);
 	border-radius: var(--radius-xs);
+	background-color: rgba(2, 6, 23, 0.8);
 
 	.skill-icon {
 		font-size: 3.6rem;
@@ -127,4 +141,5 @@ const SkillBox = styled.div`
 	padding: 0.5rem 1.5rem;
 	text-transform: uppercase;
 	font-size: 1.2rem;
+	background-color: rgba(2, 6, 23, 0.8);
 `;
