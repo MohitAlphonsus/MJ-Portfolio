@@ -77,9 +77,14 @@ const Container = styled.div`
 	/* width: 100%; */
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	gap: 1rem;
 
 	flex-wrap: wrap;
+
+	@media (min-width: 37.5em) {
+		justify-content: flex-start;
+	}
 
 	@media (min-width: 40em) {
 		flex-wrap: nowrap;

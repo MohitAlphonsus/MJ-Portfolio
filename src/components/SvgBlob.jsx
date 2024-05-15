@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 const Blob = styled.div`
 	z-index: -1;
+	position: absolute;
 	&.blob1 {
-		position: absolute;
-		top: 0;
+		top: 50%;
 		right: 0;
 		width: 40rem;
 		height: 40rem;
@@ -13,13 +13,24 @@ const Blob = styled.div`
 	}
 
 	&.blob2 {
-		position: absolute;
-		top: 0;
+		bottom: 0;
 		left: 0;
 		width: 40rem;
 		height: 40rem;
 		filter: blur(8rem);
 		animation: moveAroundTwo 10s alternate-reverse infinite;
+	}
+
+	@media (min-width: 64em) {
+		&.blob1 {
+			top: 0;
+			right: 0;
+		}
+
+		&.blob2 {
+			top: 0;
+			left: 0;
+		}
 	}
 
 	@keyframes moveAroundTwo {
